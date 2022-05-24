@@ -34,6 +34,7 @@
   (ivy-mode))
 (use-package magit
   :config
+  (setq-default git-commit-summary-max-length 50)
   (setq-default split-width-threshold 0)
   (setq-default split-height-threshold nil)
   (call-interactively 'magit-status)
